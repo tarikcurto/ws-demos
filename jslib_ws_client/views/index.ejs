@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+        <script src="/javascripts/main.js"></script>
+    </head>
+    <body>
+        <div id="response-logger">
+            <h1>Server log</h1>
+        </div>
+        <div id="request-logger">
+            <h1>Client log</h1>
+        </div>
+        <div id="client-actions">
+            <h1>Client actions</h1>
+            <input id="client-input" type="text">
+            <button onclick="wsRequestByInput()">Send message</button>
+        </div>
+    </body>
+</html>
